@@ -1,0 +1,3 @@
+Подробная установка docker(если не ставится на систему,сносить систему ,ставить образ и ставить docker по новой)
+
+https://computingforgeeks.com/install-docker-and-docker-compose-on-kali-linux/
